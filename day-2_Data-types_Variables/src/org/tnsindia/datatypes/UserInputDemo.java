@@ -2,16 +2,16 @@ package org.tnsindia.datatypes;
 
 import java.util.Scanner;
 
-//demo on user
-public class UserInputDemo {
+class Main{
 
-	public static void main(String[] args) {
-		Scanner s=new Scanner(System.in);
-		System.out.println("enter string:");
-		String str=s.nextLine();
-		System.out.println("enter string:"+s);
-		s.close();
+public static void main(String args[]){
 
-	}
+Scanner in = new Scanner(System.in);
+
+float a = in.nextFloat();
+
+System.out.println(a);
+
+}
 
 }
