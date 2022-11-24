@@ -1,35 +1,33 @@
 package org.tnsindia.constructordemo;
 
-public class Employee {
 
+
+public class Employee {
+	
+	
 	public int salary;
 	public String name;
-	
+	//default constructor
+	Employee()
+	{
+		System.out.println("Default constructor");
+	}
+	//parameterized constructor
 	public Employee(int salary, String name) {
 		super();
 		this.salary = salary;
 		this.name = name;
+		
+		
 	}
-
-	Employee()
+	//method
+	public void print()
 	{
-		System.out.println("Default Constructor");
+		System.out.println("The salary of "+name+" is: "+salary);
 	}
-	//
-	public Employee(int salary, String name) {
-		/*super();
-		this.salary = salary;
-		this.name = name;
-	*/
-		salary=25000;
-		name="Nikita";
-	}	
+	
+	
+	
+	
+
 }
-public void print()
-{
-	System.out.printlnn("The salary of "+name")
-}
-	
-	
-	
-	

@@ -2,17 +2,22 @@ package org.tnsindia.accessspecifierdemo;
 
 public class DefaultDemo {
 	
-	int speed;
+	//default data member
 	
-	public DefaultDemo(int speed)
-	{
+	/*if any var,method,constructor or class is a default
+	 * then we can access this only inside the same package*/
+	int speed;
+
+	//constructor
+	DefaultDemo(int speed) {
 		super();
-		this.speed=speed;
-		
+		this.speed = speed;
 	}
+	
+	//method
 	void display()
 	{
-		System.out.println("The speed is:"+speed);
+		System.out.println("The speedn is: "+speed);
 	}
 
 }

@@ -1,13 +1,24 @@
 package org.tnsindia.operatorsdemo;
-
+//return demo
 public class ReturnDemo {
+	
+	
+	
+	static int add(int num1,int num2)
+	{
+		if(num1>num2)
+		{
+			return 1;
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	
 
 	public static void main(String[] args) {
-		if(12>5)
-			return 1;
-		else
-			return 0;
-
+		System.out.println(add(15,12));
 	}
 
 }

@@ -9,6 +9,7 @@ public class ATMexecuter {
 
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner s=new Scanner (System.in);
 		System.out.println("enter the card no:");
 				String card_no=s.nextLine();

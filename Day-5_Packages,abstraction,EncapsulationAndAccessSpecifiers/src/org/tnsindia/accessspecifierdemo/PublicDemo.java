@@ -1,11 +1,11 @@
 package org.tnsindia.accessspecifierdemo;
 
 public class PublicDemo {
-	
-	public double amount;
-	public void print()
-	{
-		System.out.println("amount:");
-	}
+		//data member
+		public double amount;
+		public void print(double amount)
+		{
+			System.out.println(amount);
+		}
 
 }
