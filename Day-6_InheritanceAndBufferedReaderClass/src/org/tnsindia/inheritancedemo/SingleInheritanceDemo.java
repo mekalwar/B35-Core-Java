@@ -9,7 +9,7 @@ public class SingleInheritanceDemo {
 		System.out.println("The name of animal is:");
 		Scanner s=new Scanner(System.in);
 		String name1 =s.nextLine();
-		System.out.println("The name of animal is:");
+		System.out.println("The breed of animal is:");
 		String breed1=s.nextLine();
 		
 		Dog d=new Dog();
@@ -17,7 +17,7 @@ public class SingleInheritanceDemo {
 		d.breed=breed1;
 		d.display();
 		d.print();
-		
+		s.close();
 
 	}
 
