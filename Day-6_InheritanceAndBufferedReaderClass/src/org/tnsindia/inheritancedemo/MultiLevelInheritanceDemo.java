@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class MultiLevelInheritanceDemo {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner s=new Scanner(System.in);
 		
 		//vehicle name-Parent 1
