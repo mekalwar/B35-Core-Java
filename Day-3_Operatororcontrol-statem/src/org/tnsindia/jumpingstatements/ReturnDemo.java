@@ -1,4 +1,4 @@
-package org.tnsindia.operatorsdemo;
+package org.tnsindia.jumpingstatements;
 //return demo
 public class ReturnDemo {
 	
